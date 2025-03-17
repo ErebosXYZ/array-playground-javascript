@@ -5,6 +5,7 @@
 */
 
 function isFishHere(fishes, fishToFind) {
+    return fishes.includes(fishToFind);
 }
 
 // Conjunto de pruebas para isFishHere
